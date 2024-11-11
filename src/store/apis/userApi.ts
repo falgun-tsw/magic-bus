@@ -107,7 +107,7 @@ export const userApi = createApi({
       query: (payload) => ({
         url: "/user/login",
         method: "POST",
-        data: payload,
+        body: payload,
       }),
     }),
 
